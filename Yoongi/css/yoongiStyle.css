@@ -1,0 +1,214 @@
+body{
+    font-family: Nunito, sans-serif;
+    color: darkslategray;
+    background-color: bisque;
+}
+
+h1, h2, h3{
+    font-family: Asap, sans-serif;
+    color: black;
+    align-items: center;
+    
+}
+
+.botao{
+    color: black;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: bisque;
+    font-size: 9em;
+    border-radius: 3px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #6495ED;
+}
+
+nav > a{
+    text-decoration: none;
+    color: bisque;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: yellowtail, serif;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: bisque;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    color: black;
+}
+header p{
+    margin-bottom: 2em;
+}
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: bisque;
+}
+#sobre h2{
+    color: black;
+}
+#sobre p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+#sobre .botao{
+    background-color: aquamarine;
+    color: darkgrey;
+    
+}
+
+#historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+#historia div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#musicas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+#musicas h2{
+    margin-bottom: 20px;
+}
+#musicas img{
+    width: 100%;
+    align-items: center;
+}
+
+#div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+#div h3{
+    align-items: center;
+    margin-bottom: 20px;
+}
+#div img{
+    width: 100%;
+    align-items: center;
+    width: 43.3333333%;
+
+}
+
+#historia div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#parcerias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+#parcerias h2{
+    margin-bottom: 20px;
+}
+#parcerias img{
+    width: 100%;
+    align-items: center;
+
+}
+
+empresa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+#empresa h2{
+    color: darkcyan;
+}
+
+#empresa img{
+    width: 100%;
+    align-items: center;
+
+}
+
+#footer{
+    text-align: center;
+    padding: 10px;
+    background-color: bisque;
+    color: black;
+}
+    
+#footer a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (min-width: 768px){
+    
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+}
+    nav ul{
+        flex-direction: row;
+        width: 70%;
+    }
+    
+    header{
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+   
+}
